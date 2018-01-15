@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.hero {
+  background-image: url(../img/darkbg.png);
+  background-repeat: no-repeat;
+}
+
+.top-content {
+  font-family: 'Montserrat', sans-serif;
+  pointer-events:none;
+}
+
+.title {
+  color: #ffffff;
+}
+
+.subtitle {
+  color: #ffffff;
+}
+
+a {
+  transition: width .2s ease-in-out;
+  color: #ffffff;
+}
+
+a :hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+.text {
+  margin: 12px;
+}
+
+.contact a {
+  margin: 6px;
+}
