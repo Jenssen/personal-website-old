@@ -12,4 +12,7 @@ instagram: jenssen_
 # Contact
 email: "robert@jenssen.me"
 
+sass:
+  style: compressed
+
 exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]

@@ -1,5 +1,13 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "bulma";
+
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #15161a;
 }
 
 ::-webkit-scrollbar {
@@ -10,11 +18,6 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-}
-
-.hero {
-  background-image: url(../img/darkbg.png);
-  background-repeat: no-repeat;
 }
 
 .top-content {
