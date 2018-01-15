@@ -14,8 +14,13 @@ body {
     display: none;
 }
 
+canvas {
+  width: 100vh;
+  height: 100vh;
+}
+
 #particles-js {
-  
+  display: flex;
 }
 
 .top-content {
